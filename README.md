@@ -3,6 +3,10 @@
 
 ---
 
+> **TL;DR:** Cerberus is a personal OSINT/CTI analyst workflow that turns high-volume public reporting into structured daily intelligence briefs using collection, enrichment, source validation, confidence discipline, indicator-based warning, and cycle-over-cycle forecast review.
+
+---
+
 ## Overview
 
 Cerberus is an AI-assisted open-source intelligence (OSINT) and cyber threat intelligence (CTI) workflow designed to collect, enrich, validate, and structure open-source reporting into analyst-ready intelligence products. The pipeline aggregates information from public news feeds, government statements, aviation and maritime open data, and social-source monitoring into a structured daily intelligence brief covering seven global theaters: APAC, Latin America, the Wider Middle East, Iran, Israel/Palestine, Russia/Ukraine, and the United States.
@@ -17,7 +21,7 @@ Open-source intelligence is high-volume, fragmented, and uneven in reliability. 
 
 ## My Role
 
-I designed Cerberus end-to-end: the intelligence collection concept, theater coverage framework, source evaluation approach, analyst output structure, confidence discipline methodology, and cycle-over-cycle forecast review system. I built and tested automation components at a high level, integrating AI-assisted analysis into a structured daily production cycle.
+I designed the project concept, intelligence workflow, source evaluation approach, and analyst-output structure. I also built and tested automation components supporting collection, enrichment, validation, and recurring brief production. Implementation details are intentionally omitted from this public case study.
 
 ---
 
@@ -52,11 +56,27 @@ Sources → Collection → Enrichment → Validation → Analyst Brief → Revie
 
 ---
 
+## Source Handling
+
+Cerberus preserves source category, collection timing, confidence level, and corroboration status for each item at the time of analyst review. The public case study generalizes source names to avoid exposing the full source registry or collection workflow.
+
+| Category | Example Use |
+|---|---|
+| Public news reporting | Breaking events, official statements, regional context |
+| Government statements | Attribution, policy posture, security advisories |
+| Open data feeds | Aviation, maritime, geospatial, or environmental indicators |
+| Social-source monitoring | Early signals, claims, media artifacts, local reporting |
+| Analyst review | Confidence checks, source comparison, and final judgment |
+
+---
+
 ## Representative Brief Sample
 
 **Brief Date:** May 4, 2026 | **Collection Window:** 24–48 hours | **Theaters Covered:** All seven
 
 > Source attributions have been generalized to source category. Analytic content is drawn from publicly available open-source reporting.
+
+> **Note:** This sample has been sanitized and generalized for public portfolio use. Source names, URLs, and implementation details have been removed or generalized. It demonstrates output structure, confidence language, and indicator-based warning methodology — not a standalone public intelligence assessment.
 
 ### BLUF
 
@@ -107,9 +127,24 @@ The May 4 brief captured a multi-theater escalation event at the moment it was u
 
 ---
 
+## What Is Not Public
+
+The following are intentionally excluded from this case study:
+
+- Source registry and collection source list
+- Internal prompts and system instructions
+- Infrastructure and environment configuration
+- Credentials or API access details
+- Automation workflow exports or pipeline logic
+- Full database schema or data models
+- Operational collection logic
+- Sensitive monitoring details
+
+---
+
 ## Security and Disclosure Note
 
-This public case study is intentionally sanitized to demonstrate workflow design, analytical methodology, and output quality without disclosing the full technical implementation, source registry, infrastructure, credentials, internal prompts, or operational workflows.
+This case study is intentionally sanitized. It demonstrates workflow design, analytical methodology, and output quality — not the full implementation.
 
 ---
 
